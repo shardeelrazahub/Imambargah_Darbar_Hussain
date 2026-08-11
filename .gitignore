@@ -1,0 +1,9 @@
+# .gitignore - Files NOT to upload to GitHub
+.env
+database.db
+uploads/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.log

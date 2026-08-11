@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="meta-title">Markazi Imam Bargah Darbar Imam Hussain (A.S.) – Darbello</title>
+  <meta name="description" id="meta-description" content="Official website of Markazi Imam Bargah Darbar Imam Hussain (A.S.), Memon Muhalla, Darbello New, Darbello, Pakistan. A place of faith, spirituality, and community.">
+  <meta name="keywords" id="meta-keywords" content="Markazi Imam Bargah Darbello, Darbar Imam Hussain Darbello, Imam Bargah Darbello, Darbello Imam Bargah, مرکزی امام بارگاہ دریبلو, دربار امام حسین دریبلو">
+  
+  <!-- Remixicon Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <!-- Master CSS -->
+  <link rel="stylesheet" href="/static/css/styles.css">
+  <!-- Favicon -->
+  <link rel="icon" id="site-favicon" href="/static/images/logo.png" type="image/png">
+</head>
+<body>
+
+  <!-- ==========================================
+       1. PUBLIC WEBSITE VIEW
+       ========================================== -->
+  <div id="public-app">
+    
+    <!-- Announcement Ticker -->
+    <div class="ticker-wrap" id="ticker-wrap">
+      <div class="container ticker-content">
+        <div style="display:flex; align-items:center; gap:0.6rem;">
+          <span class="ticker-badge" id="ticker-badge-text">ANNOUNCEMENT</span>
+          <span id="ticker-text">Loading latest announcements...</span>
+        </div>
+        <div style="font-size:0.85rem; opacity:0.9;" id="current-timing-badge"><i class="ri-time-line"></i> Always Open</div>
+      </div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <a href="#home" class="brand">
+          <img src="/static/images/logo.png" alt="Logo" class="brand-logo" id="nav-brand-logo">
+          <div class="brand-titles">
+            <span class="brand-main" id="nav-brand-main">Markazi Imam Bargah</span>
+            <span class="brand-sub" id="nav-brand-sub">Darbar Imam Hussain (A.S.), Darbello</span>
+          </div>
+        </a>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#home" class="nav-link active" data-i18n="nav_home">Home</a></li>
+          <li><a href="#about" class="nav-link" data-i18n="nav_about">About</a></li>
+          <li><a href="#events" class="nav-link" data-i18n="nav_events">Events</a></li>
+          <li><a href="#announcements" class="nav-link" data-i18n="nav_announcements">Announcements</a></li>
+          <li><a href="#gallery" class="nav-link" data-i18n="nav_gallery">Gallery</a></li>
+          <li><a href="#media" class="nav-link" data-i18n="nav_media">Media</a></li>
+          <li><a href="#community" class="nav-link" data-i18n="nav_community">Community</a></li>
+          <li><a href="#location" class="nav-link" data-i18n="nav_location">Location</a></li>
+          <li><a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <button class="lang-btn" id="lang-toggle-btn" onclick="toggleLanguage()">
+            <i class="ri-global-line"></i> <span id="lang-btn-text">اردو</span>
+          </button>
+          
+          <div class="social-nav-icons" id="nav-social-icons">
+            <a href="https://www.instagram.com/darbar_hussaina.s/" target="_blank" rel="noopener" class="social-icon-btn" title="Instagram">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100072578134570" target="_blank" rel="noopener" class="social-icon-btn" title="Facebook">
+              <i class="ri-facebook-fill"></i>
+            </a>
+          </div>
+
+          <button class="hamburger" id="hamburger-btn" onclick="toggleMobileNav()">
+            <i class="ri-menu-line"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <span class="hero-badge" id="hero-badge-text"><i class="ri-map-pin-2-fill"></i> Memon Muhalla, Darbello New, Pakistan</span>
+        <h1 class="hero-title-en" id="hero-title-en">Markazi Imam Bargah Darbar Imam Hussain (A.S.), Darbello</h1>
+        <p class="hero-subtitle" id="hero-subtitle">A place of faith, remembrance, spirituality and community.</p>
+        
+        <div class="hero-buttons">
+          <a href="#about" class="btn btn-primary" id="hero-btn-1"><i class="ri-compass-3-line"></i> Explore</a>
+          <a href="#events" class="btn btn-secondary" id="hero-btn-2"><i class="ri-calendar-event-line"></i> Upcoming Events</a>
+          <a href="#location" class="btn btn-secondary" id="hero-btn-3"><i class="ri-map-pin-line"></i> View Location</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-subtitle" data-i18n="about_subtitle">Spiritual Sanctuary</span>
+          <h2 class="section-title" id="about-section-heading">About Our Imam Bargah</h2>
+          <div class="section-title-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-image-card">
+            <img src="/static/images/imambargah_facade.jpg" alt="Imam Bargah Architecture" id="about-image">
+          </div>
+          <div class="about-content">
+            <h3 id="about-title">Markazi Imam Bargah Darbar Imam Hussain (A.S.)</h3>
+            <p id="about-text-1">Markazi Imam Bargah Darbar Imam Hussain (A.S.) is located in Memon Muhalla, Darbello New, Darbello, Pakistan. It serves as a central spiritual sanctuary for religious majalis, Azadari, Azadaran-e-Hussain (A.S.) gatherings, and community events throughout the year.</p>
+            <p id="about-text-2">We welcome all believers and visitors to join in faith, remembrance, and community service.</p>
+
+            <div class="info-pills">
+              <div class="pill"><i class="ri-map-pin-fill" style="color:var(--gold);"></i> Memon Muhalla, Darbello New</div>
+              <div class="pill"><i class="ri-time-fill" style="color:var(--gold);"></i> Always Open</div>
+              <div class="pill"><i class="ri-shield-star-fill" style="color:var(--gold);"></i> Spiritual & Community Center</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="section" id="events" style="background:#F8FAFC;">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-subtitle" data-i18n="events_subtitle">Majalis & Programs</span>
+          <h2 class="section-title" id="heading-events" data-i18n="events_heading">Upcoming & Past Events</h2>
+          <div class="section-title-divider"></div>
+        </div>
+
+        <div class="gallery-categories" style="margin-bottom:2rem;">
+          <button class="cat-btn active" onclick="filterEvents('upcoming')" id="tab-upcoming">Upcoming Events</button>
+          <button class="cat-btn" onclick="filterEvents('all')" id="tab-all-events">All Events</button>
+        </div>
+
+        <div class="cards-grid" id="events-grid-container">
+          <!-- Dynamic Event Cards render here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Announcements Section -->
+    <section class="section" id="announcements">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-subtitle" data-i18n="announcements_subtitle">Latest News</span>
+          <h2 class="section-title" id="heading-announcements" data-i18n="announcements_heading">Announcements</h2>
+          <div class="section-title-divider"></div>
+        </div>
+
+        <div class="cards-grid" id="announcements-grid-container">
+          <!-- Dynamic Announcements render here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="section" id="gallery" style="background:#F8FAFC;">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-subtitle" data-i18n="gallery_subtitle">Visual Journey</span>
+          <h2 class="section-title" id="heading-gallery" data-i18n="gallery_heading">Photo Gallery</h2>
+          <div class="section-title-divider"></div>
+        </div>
+
+        <div class="gallery-categories" id="gallery-categories-container">
+          <!-- Dynamic Category Pills render here -->
+        </div>
+
+        <div class="gallery-grid" id="gallery-grid-container">
+          <!-- Dynamic Gallery Grid Images render here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Media Page Section -->
+    <section class="section" id="media">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-subtitle" data-i18n="media_subtitle">Videos & Online Links</span>
+          <h2 class="section-title" id="heading-media" data-i18n="media_heading">Media Center</h2>
+          <div class="section-title-divider"></div>
+        </div>
+
+        <div class="media-grid" id="media-grid-container">
+          <!-- Dynamic Media Cards render here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Community Section -->
+    <section class="section" id="community" style="background:#F8FAFC;">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-subtitle" data-i18n="community_subtitle">Unity & Support</span>
+          <h2 class="section-title" id="community-section-heading">Community & Services</h2>
+          <div class="section-title-divider"></div>
+        </div>
+
+        <div style="background:var(--bg-white); padding:2.5rem; border-radius:var(--radius-lg); border:1px solid var(--border-color); box-shadow:var(--shadow-sm);" id="community-content-box">
+          <h3 id="community-title" style="margin-bottom:1rem; color:var(--primary-dark);">Serving the Momineen and Local Community</h3>
+          <p id="community-text" style="color:var(--text-muted); font-size:1.05rem;">Our Imam Bargah coordinates religious services, Majalis, Niaz distribution, religious education, and community support in Darbello New.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="section" id="location">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-subtitle" data-i18n="location_subtitle">Find Us</span>
+          <h2 class="section-title" id="heading-location" data-i18n="location_heading">Imam Bargah Location</h2>
+          <div class="section-title-divider"></div>
+        </div>
+
+        <div class="location-grid">
+          <div class="location-info">
+            <h3>Markazi Imam Bargah</h3>
+            <div class="info-item">
+              <div class="info-icon"><i class="ri-map-pin-2-line"></i></div>
+              <div>
+                <strong>Address</strong>
+                <p id="loc-address">Memon Muhalla, Darbello New, Darbello, Pakistan</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon"><i class="ri-time-line"></i></div>
+              <div>
+                <strong>Operating Hours</strong>
+                <p id="loc-timing">Always Open</p>
+              </div>
+            </div>
+            
+            <div style="margin-top:1.5rem;">
+              <a href="https://maps.google.com/?q=Darbello,Pakistan" target="_blank" rel="noopener" class="btn btn-primary" id="get-directions-btn">
+                <i class="ri-direction-line"></i> Get Directions
+              </a>
+            </div>
+          </div>
+
+          <div class="map-container">
+            <iframe id="google-map-iframe" src="https://maps.google.com/maps?q=Darbello,Pakistan&t=&z=14&ie=UTF8&iwloc=&output=embed" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Social Media Section -->
+    <section class="section" id="contact" style="background:#F8FAFC;">
+      <div class="container">
+        <div class="section-title-wrap">
+          <span class="section-subtitle" data-i18n="contact_subtitle">Get in Touch</span>
+          <h2 class="section-title" id="heading-contact" data-i18n="contact_heading">Contact & Official Profiles</h2>
+          <div class="section-title-divider"></div>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Form -->
+          <div class="contact-card">
+            <h3 style="margin-bottom:1.5rem; color:var(--primary-dark);"><i class="ri-mail-send-line"></i> Send Us a Message</h3>
+            <form id="public-contact-form" onsubmit="handleContactSubmit(event)">
+              <div class="form-group">
+                <label class="form-label" data-i18n="form_name">Your Name *</label>
+                <input type="text" id="contact-name" class="form-control" placeholder="Enter your full name" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" data-i18n="form_email">Email Address</label>
+                <input type="email" id="contact-email" class="form-control" placeholder="name@example.com">
+              </div>
+              <div class="form-group">
+                <label class="form-label" data-i18n="form_phone">Phone Number</label>
+                <input type="tel" id="contact-phone" class="form-control" placeholder="+92 300 0000000">
+              </div>
+              <div class="form-group">
+                <label class="form-label" data-i18n="form_message">Your Message *</label>
+                <textarea id="contact-message" class="form-control" placeholder="Write your message here..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width:100%;">
+                <i class="ri-send-plane-fill"></i> Send Message
+              </button>
+            </form>
+          </div>
+
+          <!-- Official Social Cards -->
+          <div>
+            <h3 style="margin-bottom:1rem; color:var(--primary-dark);"><i class="ri-share-line"></i> Official Profiles</h3>
+            <p style="color:var(--text-muted); margin-bottom:1.5rem;">Follow the official social media channels of Markazi Imam Bargah Darbar Imam Hussain (A.S.) Darbello for updates.</p>
+
+            <div class="social-cards-grid">
+              <a href="https://www.instagram.com/darbar_hussaina.s/" target="_blank" rel="noopener" class="social-card instagram-card" id="social-card-instagram">
+                <div class="social-badge-icon"><i class="ri-instagram-line"></i></div>
+                <div>
+                  <strong style="display:block; font-size:1.1rem; color:var(--primary-dark);">Instagram</strong>
+                  <span style="font-size:0.85rem; color:var(--text-muted);">@darbar_hussaina.s</span>
+                </div>
+              </a>
+
+              <a href="https://www.facebook.com/profile.php?id=100072578134570" target="_blank" rel="noopener" class="social-card facebook-card" id="social-card-facebook">
+                <div class="social-badge-icon"><i class="ri-facebook-fill"></i></div>
+                <div>
+                  <strong style="display:block; font-size:1.1rem; color:var(--primary-dark);">Facebook Page</strong>
+                  <span style="font-size:0.85rem; color:var(--text-muted);">Darbar Imam Hussain (A.S.)</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <h3 id="footer-title-ur" class="urdu-font">مرکزی امام بارگاہ دربار امام حسین علیہ السلام دریبلو</h3>
+            <h4 id="footer-title-en" style="color:var(--bg-white); margin-bottom:0.6rem;">Markazi Imam Bargah Darbar Imam Hussain (A.S.), Darbello</h4>
+            <p id="footer-address"><i class="ri-map-pin-line"></i> Memon Muhalla, Darbello New, Darbello, Pakistan</p>
+          </div>
+
+          <div>
+            <h4 class="footer-title">Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#events">Events</a></li>
+              <li><a href="#announcements">Announcements</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#location">Location</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="footer-title">Administration</h4>
+            <ul class="footer-links">
+              <li><a href="#admin-login" onclick="showAdminLogin()"><i class="ri-lock-line"></i> Admin Login</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span>&copy; <span id="copy-year">2026</span> Markazi Imam Bargah Darbar Imam Hussain (A.S.), Darbello. All rights reserved.</span>
+          <span>Built with Reverence & Excellence</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Gallery Lightbox Modal -->
+  <div class="modal-backdrop" id="gallery-lightbox">
+    <div class="modal-content-wrap">
+      <button class="modal-close" onclick="closeLightbox()">&times;</button>
+      <div class="modal-img-container">
+        <img src="" id="lightbox-img" alt="Gallery preview">
+      </div>
+      <div class="modal-caption-bar" id="lightbox-caption"></div>
+    </div>
+  </div>
+
+
+  <!-- ==========================================
+       2. ADMIN LOGIN SCREEN VIEW
+       ========================================== -->
+  <div id="admin-login-view" class="admin-login-view" style="display:none;">
+    <div class="login-card">
+      <div class="login-header">
+        <img src="/static/images/logo.png" alt="Admin Logo" class="login-logo">
+        <h2 style="color:var(--primary-dark);">Admin Portal</h2>
+        <p style="font-size:0.85rem; color:var(--text-muted);">Markazi Imam Bargah Darbar Imam Hussain (A.S.)</p>
+      </div>
+
+      <div id="login-error-alert" style="display:none; padding:0.8rem; background:#FEE2E2; color:#991B1B; border-radius:var(--radius-sm); margin-bottom:1rem; font-size:0.9rem;"></div>
+
+      <form id="admin-login-form" onsubmit="handleAdminLogin(event)">
+        <div class="form-group">
+          <label class="form-label">Email Address</label>
+          <input type="email" id="login-email" class="form-control" placeholder="admin@darbelloimambargah.com" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Password</label>
+          <input type="password" id="login-password" class="form-control" placeholder="••••••••" required>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%; margin-top:1rem;">
+          <i class="ri-login-box-line"></i> Secure Login
+        </button>
+      </form>
+
+      <div style="text-align:center; margin-top:1.5rem;">
+        <a href="#" onclick="showPublicSite()" style="font-size:0.85rem; color:var(--primary); font-weight:600;">
+          &larr; Back to Public Website
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ==========================================
+       3. PRIVATE ADMIN DASHBOARD VIEW
+       ========================================== -->
+  <div id="admin-dashboard-view" class="admin-dashboard-layout" style="display:none;">
+    
+    <!-- Sidebar -->
+    <aside class="admin-sidebar">
+      <div class="sidebar-header">
+        <img src="/static/images/logo.png" style="width:36px; height:36px; border-radius:50%; border:1px solid var(--gold);" alt="Logo">
+        <div>
+          <strong style="font-size:0.95rem; display:block; color:var(--gold);">Imam Bargah CMS</strong>
+          <span style="font-size:0.75rem; opacity:0.8;">Admin Portal</span>
+        </div>
+      </div>
+
+      <ul class="sidebar-menu">
+        <li class="sidebar-item"><a href="#" class="sidebar-link active" onclick="switchAdminTab('overview')"><i class="ri-dashboard-line"></i> <span>Overview</span></a></li>
+        <li class="sidebar-item"><a href="#" class="sidebar-link" onclick="switchAdminTab('settings')"><i class="ri-settings-4-line"></i> <span>Website Settings</span></a></li>
+        <li class="sidebar-item"><a href="#" class="sidebar-link" onclick="switchAdminTab('pages')"><i class="ri-pages-line"></i> <span>Pages (Home/About)</span></a></li>
+        <li class="sidebar-item"><a href="#" class="sidebar-link" onclick="switchAdminTab('events')"><i class="ri-calendar-event-line"></i> <span>Events & Majalis</span></a></li>
+        <li class="sidebar-item"><a href="#" class="sidebar-link" onclick="switchAdminTab('announcements')"><i class="ri-notification-3-line"></i> <span>Announcements</span></a></li>
+        <li class="sidebar-item"><a href="#" class="sidebar-link" onclick="switchAdminTab('gallery')"><i class="ri-image-line"></i> <span>Photo Gallery</span></a></li>
+        <li class="sidebar-item"><a href="#" class="sidebar-link" onclick="switchAdminTab('media')"><i class="ri-video-line"></i> <span>Media Center</span></a></li>
+        <li class="sidebar-item"><a href="#" class="sidebar-link" onclick="switchAdminTab('social')"><i class="ri-share-line"></i> <span>Social Links</span></a></li>
+        <li class="sidebar-item"><a href="#" class="sidebar-link" onclick="switchAdminTab('inbox')"><i class="ri-inbox-line"></i> <span>Contact Messages</span></a></li>
+        <li class="sidebar-item" id="sidebar-item-users"><a href="#" class="sidebar-link" onclick="switchAdminTab('users')"><i class="ri-user-settings-line"></i> <span>Admin Users</span></a></li>
+        <li class="sidebar-item"><a href="#" class="sidebar-link" onclick="switchAdminTab('profile')"><i class="ri-user-3-line"></i> <span>My Profile</span></a></li>
+      </ul>
+
+      <div style="padding:1rem 1.5rem; border-top:1px solid rgba(255,255,255,0.1);">
+        <button onclick="handleAdminLogout()" style="color:#FCA5A5; font-size:0.9rem; font-weight:600; display:flex; align-items:center; gap:0.5rem;">
+          <i class="ri-logout-box-r-line"></i> Sign Out
+        </button>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="admin-main">
+      <header class="admin-topbar">
+        <h3 id="admin-page-title" style="color:var(--primary-dark);">Dashboard Overview</h3>
+        
+        <div class="admin-user-info">
+          <a href="#" onclick="showPublicSite()" class="btn btn-outline btn-sm"><i class="ri-external-link-line"></i> View Live Site</a>
+          <span class="role-badge" id="admin-user-role-badge">SUPER ADMIN</span>
+          <div style="display:flex; align-items:center; gap:0.5rem; cursor:pointer;" onclick="switchAdminTab('profile')">
+            <img src="/static/images/logo.png" id="admin-topbar-avatar" style="width:36px; height:36px; border-radius:50%; object-fit:cover; border:2px solid var(--gold);" alt="Avatar">
+            <strong id="admin-user-name" style="font-size:0.95rem;">Admin User</strong>
+          </div>
+        </div>
+      </header>
+
+      <div class="admin-content-area" id="admin-content-area">
+        <!-- Dynamic Admin Tabs render here -->
+      </div>
+    </main>
+  </div>
+
+  <!-- Toast Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- App Scripts -->
+  <script src="/static/js/app.js"></script>
+  <script src="/static/js/admin.js"></script>
+</body>
+</html>
